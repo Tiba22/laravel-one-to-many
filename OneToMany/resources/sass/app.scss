@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+  li {
+    margin: 10px 0;
+    list-style: none;
+
+    h3 {
+      text-decoration: underline;
+    }
+
+    p {
+      margin-left: 20px;
+    }
+  }
+}
